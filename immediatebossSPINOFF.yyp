@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "766953c1-d8ba-43bc-a06d-9b406b09c3fe",
+            "Value": {
+                "id": "5253c1e4-de1c-4992-80a5-f569475e1f69",
+                "resourcePath": "objects\\obj_drone_block\\obj_drone_block.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "773a4df4-9158-40f1-aed5-5c2c6f0adccc",
             "Value": {
                 "id": "49c3a5e0-4322-4e1c-9858-6b6ec6f2f874",
