@@ -1,23 +1,22 @@
 //////controls and such
 
-///middle button controls for using your focus to change the state of switches are in the switch parent object
 
 //input for movement
 
 jump = keyboard_check_pressed(vk_space); 
  
-
 move_left = keyboard_check(ord("A"));
-
 
 move_right = keyboard_check(ord("D"));
 
+duck = keyboard_check(ord("S"));
 
-//dash mechanic
 
-if mouse_check_button_pressed(mb_right) && (dashcooldown < 0) && (move_right ^^ move_left == true)
+//dash mechanic (set up in this way so we cant clip thru blocks
+
+if keyboard_check_pressed(ord("L")) && (dashcooldown < 0) && (move_right ^^ move_left == true)
 {
-	alarm_set(0, 4)
+	alarm_set(0, 6)
 	
 	walksp = 35
 	
@@ -26,43 +25,51 @@ if mouse_check_button_pressed(mb_right) && (dashcooldown < 0) && (move_right ^^ 
 	vsp = 0
 }
 
-if mouse_check_button_released(mb_right) walksp = 4;
+if keyboard_check_released(ord("L")) walksp = 4;
 
 dashcooldown += -1;
  
-if obj_cerpin.dashcooldown < 0 == true sprite_index = spr_cerpin_dash_ready
-else sprite_index = spr_cerpin;
 
-//calculate movement
+//calculate horizontal movement
 
 var move = move_right - move_left;
 	
 hsp = move * walksp;
-
-
+ 
+//calc vertical movement with gravity & creating terinal velocity
+ 
 vsp += grv;
 
-if (place_meeting(x, y+1, obj_block)) && (jump)
+
+//jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)
+if (jump) && (AIR_JUMP > 0)
 {
-	vsp = -10;
+	vsp = -jumpSpeed;
+	AIR_JUMP -= 1;
+}
+//resets air jumps to one after making contact with ground and avoiding bug where horizontal collision causes more air jumps to be available
+
+if (place_meeting(x, y+1, obj_block)) 
+{
+AIR_JUMP = 1;
 }
 
 //running
 
 if keyboard_check(vk_shift)
 {
-	walksp = 8
+	walksp = 12
 }	
 
 if keyboard_check_released(vk_shift) 
 {
-	walksp = 4
+	walksp = 6
 }
 
 
 
 
-//horizontal collision
+//horizontal collision using hsp in the collision check helps prevent the dash from clipping through obj_block
 
 if (place_meeting(x+hsp, y, obj_block))
 {
@@ -87,23 +94,6 @@ if (place_meeting(x, y+vsp, obj_block))
 y += vsp;
 
 
-////animations
-if (!place_meeting(x, y+1, obj_block))
-{
-	sprite_index = spr_cerpin;
-	image_speed = 0 
-	if sign(vsp) > 0 image_index = 6; 
-	
-		else sprite_index = spr_cerpin;
-		image_speed = 1
-} 
-if (hsp != 0) image_xscale = sign(hsp);
 
-// shield mechanic
 
-if mouse_check_button(mb_left) && (shieldenergy > 0) && !instance_exists(obj_shield)
-{
-	instance_create_layer(x, y, "layer_shield_cursor", obj_shield)
-	shieldenergy += -1
-}
 

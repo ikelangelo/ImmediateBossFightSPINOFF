@@ -1,3 +1,3 @@
 /// dash stopper
 
-walksp = 4;
+walksp = 6;
