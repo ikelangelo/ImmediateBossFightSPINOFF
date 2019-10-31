@@ -35,18 +35,7 @@ switch(state)
 
 
 
-//jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)
-if (jump) && (AIR_JUMP > 0)
-{
-	vsp = -jumpSpeed;
-	AIR_JUMP -= 1;
-}
-//resets air jumps to one after making contact with ground and avoiding bug where horizontal collision causes more air jumps to be available
 
-if (place_meeting(x, y+1, obj_block)) 
-{
-AIR_JUMP = 1;
-}
 
 
 

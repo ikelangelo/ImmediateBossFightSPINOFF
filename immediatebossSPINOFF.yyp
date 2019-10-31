@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "408913bb-e37a-4a8f-949a-58f94633a870",
-            "Value": {
-                "id": "001f71be-2491-42f4-8665-51a0357d0c62",
-                "resourcePath": "sprites\\spr_dronetest\\spr_dronetest.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "42d51d0a-ec62-44df-996f-55ce8cc819eb",
             "Value": {
                 "id": "81c11504-85ec-420d-b9fa-a9473b712648",

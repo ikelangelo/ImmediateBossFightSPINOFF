@@ -3,7 +3,26 @@
 var move = move_right - move_left;
 	
 hsp = move * walksp;
- 
+
+
+////////---------------------------------------------------movement animation NIKO LOOK HERE----------------------------------
+
+if (hsp != 0) 
+{
+	// using the image xscale function along with sign (which returns pos or neg based on the variable it reads) you can reverse the image
+	image_xscale = sign(hsp);
+	sprite_index = spr_CyberLynx_Move;
+} 
+
+else if duck = true 
+{
+	hsp = 0;
+	sprite_index = spr_CyberLynx_Duck;
+
+}
+else sprite_index = spr_CyberLynx_Idle;
+
+
 /////////calc vertical movement with gravity & creating terinal velocity
  
 vsp += grv;
@@ -68,5 +87,21 @@ if keyboard_check_released(ord("L"))
 dashcooldown += -1;
 
 
+
+//jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)
+
+if (jump) && (AIR_JUMP > 0)
+{
+	vsp = -jumpSpeed;
+	AIR_JUMP -= 1;
+}
+//resets air jumps to one after making contact with ground and avoiding bug where horizontal collision causes more air jumps to be available
+
+if (place_meeting(x, y+1, obj_block)) 
+{
+AIR_JUMP = 1;
+}
+
+///////
 
 if (key_attack) state = PLAYERSTATE.ATTACK_SLASH;
