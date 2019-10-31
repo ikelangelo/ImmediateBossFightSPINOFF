@@ -2,7 +2,7 @@
     "id": "42d51d0a-ec62-44df-996f-55ce8cc819eb",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_squirelynx",
+    "name": "obj_CyberLynx",
     "eventList": [
         {
             "id": "fec9f28f-fcc2-4ef3-9ee6-ef851e0c18b9",
@@ -63,6 +63,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "e56bf9da-de43-4c39-960d-61a781e540c5",
+    "spriteId": "e5069ce2-b2ea-48c1-a863-68a62201bdfb",
     "visible": true
 }

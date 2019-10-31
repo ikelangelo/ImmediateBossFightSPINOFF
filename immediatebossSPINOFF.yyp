@@ -146,7 +146,7 @@
             "Key": "42d51d0a-ec62-44df-996f-55ce8cc819eb",
             "Value": {
                 "id": "81c11504-85ec-420d-b9fa-a9473b712648",
-                "resourcePath": "objects\\obj_squirelynx\\obj_squirelynx.yy",
+                "resourcePath": "objects\\obj_CyberLynx\\obj_CyberLynx.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -403,14 +403,6 @@
             "Value": {
                 "id": "e51020ba-d859-4cc8-923f-226435f7f5a2",
                 "resourcePath": "sprites\\spr_CyberLynx_Idle\\spr_CyberLynx_Idle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "e56bf9da-de43-4c39-960d-61a781e540c5",
-            "Value": {
-                "id": "121e1edc-e47f-4663-9419-6bfe1ce5deba",
-                "resourcePath": "sprites\\spr_TEST\\spr_TEST.yy",
                 "resourceType": "GMSprite"
             }
         },
