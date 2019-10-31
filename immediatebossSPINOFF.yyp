@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "078a906b-8c1a-461f-91cd-bae61c1a97b3",
+            "Value": {
+                "id": "52f42006-6c7d-40c4-96b6-7a49c3e7ab93",
+                "resourcePath": "scripts\\PlayerState_Attack_Combo\\PlayerState_Attack_Combo.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "150eac3e-8311-4d7b-a986-476e0a21befb",
             "Value": {
                 "id": "bf04e27e-8cba-4b6f-af65-2c5b3e10c207",
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "37718108-7de6-40c4-a33e-6cd00b808188",
+            "Value": {
+                "id": "acda0fb1-d30e-48d4-864e-ba7651839ad5",
+                "resourcePath": "scripts\\PlayerState_Free\\PlayerState_Free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3eddebd1-1553-4973-b000-3b9b3307d688",
             "Value": {
                 "id": "09d8a774-4dc4-46f1-8eaf-6be57fd1ff1c",
@@ -124,6 +140,14 @@
                 "id": "b8cf3a31-acbe-45dc-8b59-aae1ab59206c",
                 "resourcePath": "views\\4bc4800e-5dd8-4f7c-a6f3-5e9343051c32.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4f356d06-e581-469c-847d-8a25d9c0cbd1",
+            "Value": {
+                "id": "41dce9b7-2180-4955-975e-fbca810003ee",
+                "resourcePath": "scripts\\PlayerState_Attack_Slash\\PlayerState_Attack_Slash.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -320,7 +344,9 @@
         }
     ],
     "script_order": [
-        
+        "37718108-7de6-40c4-a33e-6cd00b808188",
+        "4f356d06-e581-469c-847d-8a25d9c0cbd1",
+        "078a906b-8c1a-461f-91cd-bae61c1a97b3"
     ],
     "tutorial": ""
 }
