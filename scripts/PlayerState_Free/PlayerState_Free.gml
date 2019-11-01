@@ -59,11 +59,13 @@ y += vsp;
 if keyboard_check(vk_shift)
 {
 	walksp = 12;
+	image_speed = 2;
 }	
 
 if keyboard_check_released(vk_shift) 
 {
 	walksp = 6;
+	image_speed = 1;
 }
 
 ///////dash mechanic (set up in this way so we cant clip thru blocks
