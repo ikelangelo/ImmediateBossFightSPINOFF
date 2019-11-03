@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "obj_watcher_red",
     "eventList": [
-        {
-            "id": "734d59d6-edfc-4007-bffe-e920f78cdc8a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "773a4df4-9158-40f1-aed5-5c2c6f0adccc"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
