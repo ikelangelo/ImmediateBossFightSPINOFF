@@ -15,7 +15,7 @@ switch(state)
 	case ENEMYSTATE.ATTACK: 
 	break;
 	
-	case ENEMYSTATE.HIT: 
+	case ENEMYSTATE.HIT: EnemyState_Hit();
 	break;
 
 	case ENEMYSTATE.IDLE: EnemyState_Idle();
