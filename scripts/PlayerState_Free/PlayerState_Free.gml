@@ -68,7 +68,7 @@ if keyboard_check_released(vk_shift)
 	image_speed = 1;
 }
 
-///////dash mechanic (set up in this way so we cant clip thru blocks
+///////dash mechanic (set up in this way so we cant clip thru blocks)
 
 if keyboard_check_pressed(ord("L")) && (dashcooldown < 0) && (move_right ^^ move_left == true)
 {
@@ -86,8 +86,10 @@ if keyboard_check_released(ord("L"))
 	walksp = 6;
 	
 }
-dashcooldown += -1;
 
+///dash cooldown is here because otherwise theres an exploit to keep slashing and dashing forward infinitely
+
+dashcooldown += -1;
 
 
 //jump and double jump (known as AIR_JUMP so we dont have to mess with the current jump mechanic)

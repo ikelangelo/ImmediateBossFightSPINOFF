@@ -13,6 +13,8 @@ duck = keyboard_check(ord("S"));
 
 key_attack = keyboard_check(ord("K"));
 
+
+
 switch(state)
 {
 	case PLAYERSTATE.FREE: PlayerState_Free();

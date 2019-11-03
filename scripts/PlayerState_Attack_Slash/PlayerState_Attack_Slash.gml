@@ -1,7 +1,8 @@
+///stops player movement 
+
 hsp = 0;
 vsp = 0;
 
-dashcooldown += -1;
 
 //start of attack
 if (sprite_index != spr_CyberLynx_Slash)
@@ -21,7 +22,6 @@ if (hits > 0)
 	{
 		/// if this instance has not been hit by this attack yet
 		var hitID = ds_list_find_value(hitByAttackNow, i);
-		/////if this doesn't work use var hitID = hitByAttackNow[| i];
 		if (ds_list_find_index(hitByAttack, hitID) == -1)
 		{
 			ds_list_add(hitByAttack, hitID);
@@ -36,7 +36,11 @@ if (hits > 0)
 ds_list_destroy(hitByAttackNow);
 mask_index = spr_CyberLynx_Idle;
 
-if (Animation_End())
+//if (Animation_End()) this is robust but unnecessary
+//if ev_animation_end I cant figure out how this works or doesnt? the documentation sucks.
+///the damn sprite for attacking has 6 frames and since the index starts at 0, five should be the final frame 
+// and thus the trigger to end this script and state
+if image_index > 5
 {
 	sprite_index = spr_CyberLynx_Idle;
 	state = PLAYERSTATE.FREE;
