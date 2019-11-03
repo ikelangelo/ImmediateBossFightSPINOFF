@@ -21,3 +21,7 @@ if(_type == spritespeed_framespersecond)
     _spd = _spd/room_speed;
 if(argument_count > 2) _spd=argument[2];
 return _image + _spd >= sprite_get_number(_sprite);
+
+
+//////I decided against using this piece of code because it was too robust for what I wanted to do
+//// I found that using an if statement for imageindex works just as fine
