@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "d5eb7365-8210-44a7-83d0-8236f0b09e07",
+            "Value": {
+                "id": "ea80dacb-13ff-4b97-97ca-2eac2c884691",
+                "resourcePath": "scripts\\EnemyState_Free\\EnemyState_Free.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d760a770-11f8-4e91-b105-e942d7d8b313",
             "Value": {
                 "id": "a9c6eaaf-8485-406b-832c-66035cfd4a51",
@@ -471,6 +479,14 @@
             }
         },
         {
+            "Key": "f11bb2f0-222f-41eb-b7c3-412fc4730e9c",
+            "Value": {
+                "id": "3ebf900d-3fcd-4d4c-9f2e-25bc103cfd78",
+                "resourcePath": "scripts\\EnemyState_Idle\\EnemyState_Idle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f37c2e52-b188-4224-8c3f-1c990811f36c",
             "Value": {
                 "id": "791376e3-a8f7-489c-a78b-51868915cd2d",
@@ -499,7 +515,9 @@
         "37718108-7de6-40c4-a33e-6cd00b808188",
         "4f356d06-e581-469c-847d-8a25d9c0cbd1",
         "078a906b-8c1a-461f-91cd-bae61c1a97b3",
-        "62898a05-463e-4679-86b3-2c74473c9030"
+        "62898a05-463e-4679-86b3-2c74473c9030",
+        "d5eb7365-8210-44a7-83d0-8236f0b09e07",
+        "f11bb2f0-222f-41eb-b7c3-412fc4730e9c"
     ],
     "tutorial": ""
 }

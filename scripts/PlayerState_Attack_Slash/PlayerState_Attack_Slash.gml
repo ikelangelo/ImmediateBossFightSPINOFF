@@ -38,7 +38,7 @@ mask_index = spr_CyberLynx_Idle;
 
 //if (Animation_End()) this is robust but unnecessary
 //if ev_animation_end I cant figure out how this works or doesnt? the documentation sucks.
-///the damn sprite for attacking has 6 frames and since the index starts at 0, five should be the final frame 
+///the sprite for attacking has 6 frames and since the index starts at 0, five should be the final frame 
 // and thus the trigger to end this script and state
 if image_index > 5
 {

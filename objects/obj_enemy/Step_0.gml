@@ -1,11 +1,24 @@
 
 
-//motion towards player
 
-//move_towards_point(obj_CyberLynx.x, obj_CyberLynx.y, move);
 
 if hp <= 0 
 instance_destroy();
 
 
 
+switch(state)
+{
+	case ENEMYSTATE.FREE: EnemyState_Free();
+	break;
+	
+	case ENEMYSTATE.ATTACK: 
+	break;
+	
+	case ENEMYSTATE.HIT: 
+	break;
+
+	case ENEMYSTATE.IDLE: EnemyState_Idle();
+	break;
+
+}
