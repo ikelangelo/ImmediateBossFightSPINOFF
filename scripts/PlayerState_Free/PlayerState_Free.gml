@@ -29,6 +29,8 @@ vsp += grv;
 
 if vsp >= MAX_VSP vsp = MAX_VSP;
 
+if !place_meeting(x, y+vsp, obj_block) sprite_index = spr_CyberLynx_Jump;
+
 ////////horizontal collision using hsp in the collision check helps prevent the dash from clipping through obj_block
 
 if (place_meeting(x+hsp, y, obj_block))
