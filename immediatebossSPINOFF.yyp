@@ -359,6 +359,22 @@
             }
         },
         {
+            "Key": "b250ee49-ff3f-4857-a805-e4f3a0992a47",
+            "Value": {
+                "id": "b1366073-61ea-4dfb-bb05-123a342bd92d",
+                "resourcePath": "sprites\\spr_CyberLynx_Dash\\spr_CyberLynx_Dash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b83bb88f-699f-47ec-8051-04d816e04570",
+            "Value": {
+                "id": "c31b567e-09d6-4f86-b879-81478bcb49ab",
+                "resourcePath": "sprites\\spr_CyberLynx_Jump\\spr_CyberLynx_Jump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c7c1ee96-fe8a-4a2b-a40a-96dbc1758046",
             "Value": {
                 "id": "085a0d78-1fba-4dfb-ab10-6a3b8496bc68",
