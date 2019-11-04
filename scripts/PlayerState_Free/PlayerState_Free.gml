@@ -81,12 +81,18 @@ if keyboard_check_pressed(ord("L")) && (dashcooldown < 0) && (move_right ^^ move
 	dashcooldown = 180;
 	
 	vsp = 0;
+	
+	sprite_index = spr_CyberLynx_Dash;
+	
 }
+
+
+
 
 if keyboard_check_released(ord("L")) 
 {
 	walksp = 6;
-	
+
 }
 
 ///dash cooldown is here because otherwise theres an exploit to keep slashing and dashing forward infinitely
