@@ -28,7 +28,7 @@ if (hits > 0)
 			with (hitID)
 			{
 				///this is what happens to the enemy when they are hit
-				EnemyHit(1);
+				EnemyHit(1, 10);
 			}
 		}
 	}

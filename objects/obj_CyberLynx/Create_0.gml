@@ -6,7 +6,7 @@ dashcooldown = 0;
 MAX_VSP = 20; 
 jumpSpeed = 15
 AIR_JUMP = 1;
-
+atkDir = 0;
 state = PLAYERSTATE.FREE;
 
 hitByAttack = ds_list_create();
