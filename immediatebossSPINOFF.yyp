@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "7e3c6742-893e-409d-bbe8-dfca25680dc2",
+            "Value": {
+                "id": "4cbefc49-1ca7-4003-9089-36848d025489",
+                "resourcePath": "sprites\\spr_watcher_shocked\\spr_watcher_shocked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "873f5f53-9f01-4bf2-8c7a-50976a056f93",
             "Value": {
                 "id": "816bc30d-d3b9-4f8a-a072-6f2f1eea3cff",
