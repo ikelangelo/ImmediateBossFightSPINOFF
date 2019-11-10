@@ -66,7 +66,15 @@
             "Key": "0921ed28-c125-425a-a360-e5bee6d11eed",
             "Value": {
                 "id": "69633037-e741-4ac8-9e0b-b36ee10d20c4",
-                "resourcePath": "objects\\obj_drone_shocker\\obj_drone_shocker.yy",
+                "resourcePath": "objects\\obj_shocker_tile\\obj_shocker_tile.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "1372fc44-5b72-4582-9292-21f28f19939c",
+            "Value": {
+                "id": "34485150-5150-4ea8-89a1-8813c76db039",
+                "resourcePath": "objects\\obj_drone_killer\\obj_drone_killer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -247,6 +255,14 @@
             }
         },
         {
+            "Key": "6c722366-700d-44ba-9923-78bcba74f753",
+            "Value": {
+                "id": "952b583a-c568-445d-8561-56afeed7842f",
+                "resourcePath": "sprites\\spr_drone_killer_tile\\spr_drone_killer_tile.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6df52836-c078-4d67-b237-f3560009865c",
             "Value": {
                 "id": "5572e2ec-a1f5-4c1e-8b35-4b75ff5fb006",
@@ -306,7 +322,7 @@
             "Key": "7e92460a-b157-4416-888b-6fc6d6e3cece",
             "Value": {
                 "id": "65a0d6e4-ac8f-4fe8-ba6d-d275be9877eb",
-                "resourcePath": "sprites\\spr_drone_shocker\\spr_drone_shocker.yy",
+                "resourcePath": "sprites\\spr_shocker_tile\\spr_shocker_tile.yy",
                 "resourceType": "GMSprite"
             }
         },
