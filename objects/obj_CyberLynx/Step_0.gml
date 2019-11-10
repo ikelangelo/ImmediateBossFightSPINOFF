@@ -11,7 +11,7 @@ move_right = keyboard_check(ord("D"));
 
 duck = keyboard_check(ord("S"));
 
-key_attack = keyboard_check(ord("K"));
+key_attack = keyboard_check_pressed(ord("K"));
 
 
 
