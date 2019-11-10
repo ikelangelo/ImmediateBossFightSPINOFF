@@ -311,14 +311,6 @@
             }
         },
         {
-            "Key": "7e3c6742-893e-409d-bbe8-dfca25680dc2",
-            "Value": {
-                "id": "4cbefc49-1ca7-4003-9089-36848d025489",
-                "resourcePath": "sprites\\spr_watcher_shocked\\spr_watcher_shocked.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7e92460a-b157-4416-888b-6fc6d6e3cece",
             "Value": {
                 "id": "65a0d6e4-ac8f-4fe8-ba6d-d275be9877eb",
@@ -612,6 +604,14 @@
                 "id": "6d7de751-2acd-4a31-a8e6-d2901cb3bd2d",
                 "resourcePath": "scripts\\EnemyHit\\EnemyHit.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f9432b82-e731-46c1-82c1-de0cf0cfe254",
+            "Value": {
+                "id": "dccd03c5-dec5-4079-972c-e9f9fd98041c",
+                "resourcePath": "sprites\\spr_watcher_shocked\\spr_watcher_shocked.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
