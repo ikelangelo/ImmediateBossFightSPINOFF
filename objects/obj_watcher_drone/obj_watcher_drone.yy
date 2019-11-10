@@ -2,7 +2,7 @@
     "id": "773a4df4-9158-40f1-aed5-5c2c6f0adccc",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_watcher_red",
+    "name": "obj_watcher_drone",
     "eventList": [
         
     ],

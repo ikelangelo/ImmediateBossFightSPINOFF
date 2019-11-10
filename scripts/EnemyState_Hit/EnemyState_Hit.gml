@@ -1,8 +1,18 @@
+///prevents enemy attack after enemy is hit
+
+alarm[0] = -1;
+alarm[1] = -1;
+
 motion_set(0, knockback*obj_CyberLynx.image_xscale);
+
+///slows knockback so that it will end eventually
 knockback = lerp(knockback, 0, 0.1);
+
+
 sprite_index = spr_watcher_shocked;
+
 if knockback = 0 
 {
-	sprite_index = spr_watcher_red;
+	sprite_index = spr_watcher_drone;
 	state = ENEMYSTATE.IDLE;
 }

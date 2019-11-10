@@ -42,7 +42,7 @@
             "Key": "05a550b7-0c39-4020-80e8-2878c8ac271c",
             "Value": {
                 "id": "c38740e8-b4c0-47fb-beb7-e488b5fcc361",
-                "resourcePath": "sprites\\spr_watcher_red\\spr_watcher_red.yy",
+                "resourcePath": "sprites\\spr_watcher_drone\\spr_watcher_drone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -266,7 +266,7 @@
             "Key": "773a4df4-9158-40f1-aed5-5c2c6f0adccc",
             "Value": {
                 "id": "49c3a5e0-4322-4e1c-9858-6b6ec6f2f874",
-                "resourcePath": "objects\\obj_watcher_red\\obj_watcher_red.yy",
+                "resourcePath": "objects\\obj_watcher_drone\\obj_watcher_drone.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "c3d6fffa-2dab-41a7-b2c3-f93619f6b4de",
+            "Value": {
+                "id": "84839233-1da7-48ec-b68f-ffed45ddfcda",
+                "resourcePath": "sprites\\spr_enemy_attack\\spr_enemy_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c7c1ee96-fe8a-4a2b-a40a-96dbc1758046",
             "Value": {
                 "id": "085a0d78-1fba-4dfb-ab10-6a3b8496bc68",
@@ -412,6 +420,14 @@
                 "id": "00abc708-466a-46c7-9551-aa21965904d3",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d060dad5-42f8-485d-b5a7-4cd243bf92d7",
+            "Value": {
+                "id": "222c51cd-5986-4a24-bcc2-bff1b9b654c0",
+                "resourcePath": "scripts\\EnemyState_Attack\\EnemyState_Attack.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -559,6 +575,14 @@
             }
         },
         {
+            "Key": "fb465dfd-21ad-4d7a-9a71-08829d7ad4cb",
+            "Value": {
+                "id": "fb398dc9-48fd-46f2-821b-6647499fe3e0",
+                "resourcePath": "objects\\obj_enemy_attack\\obj_enemy_attack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fb5f49d3-17e2-4c1b-87e0-d46e721f21fb",
             "Value": {
                 "id": "98fdea89-a292-4ff2-9398-37c5402dbfdb",
@@ -583,7 +607,8 @@
         "d5eb7365-8210-44a7-83d0-8236f0b09e07",
         "f11bb2f0-222f-41eb-b7c3-412fc4730e9c",
         "f136eb09-82ea-4110-aab2-663c42faacbd",
-        "f7bdda5b-078f-43e4-b169-4bcd26702b6f"
+        "f7bdda5b-078f-43e4-b169-4bcd26702b6f",
+        "d060dad5-42f8-485d-b5a7-4cd243bf92d7"
     ],
     "tutorial": ""
 }

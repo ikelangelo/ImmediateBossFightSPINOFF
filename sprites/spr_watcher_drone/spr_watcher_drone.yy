@@ -2,7 +2,7 @@
     "id": "05a550b7-0c39-4020-80e8-2878c8ac271c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_watcher_red",
+    "name": "spr_watcher_drone",
     "For3D": false,
     "HTile": false,
     "VTile": false,

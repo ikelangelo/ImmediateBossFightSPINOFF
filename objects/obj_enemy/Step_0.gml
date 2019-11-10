@@ -12,7 +12,7 @@ switch(state)
 	case ENEMYSTATE.FREE: EnemyState_Free();
 	break;
 	
-	case ENEMYSTATE.ATTACK: 
+	case ENEMYSTATE.ATTACK: EnemyState_Attack();
 	break;
 	
 	case ENEMYSTATE.HIT: EnemyState_Hit();
