@@ -4,6 +4,11 @@ walksp = 6;
 hsp = 0;
 vsp = 0;
 
+if image_xscale = 1
+instance_create_layer(x, y, "Instances", obj_bosshitbox);
+
+if image_xscale = -1
+instance_create_layer(x-70, y, "Instances", obj_bosshitbox);
 
 //start of attack
 if (sprite_index != spr_CyberLynx_Slash)
@@ -44,5 +49,6 @@ mask_index = spr_CyberLynx_Idle;
 if image_index > 5
 {
 	sprite_index = spr_CyberLynx_Idle;
+	instance_destroy(obj_bosshitbox);
 	state = PLAYERSTATE.FREE;
 }

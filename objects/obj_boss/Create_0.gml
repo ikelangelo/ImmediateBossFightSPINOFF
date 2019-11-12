@@ -1,7 +1,7 @@
 state = BOSSSTATE.RUNAWAY;
 normalCooldown = 60;
 bulletCooldown = normalCooldown;
-hp = 5;
+hp = 80;
 moveSp = 16;
 enum BOSSSTATE
 {

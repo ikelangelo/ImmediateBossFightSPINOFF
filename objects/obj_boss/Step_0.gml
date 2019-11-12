@@ -6,6 +6,11 @@ if bulletCooldown < 0
 	
 }
 
+if place_meeting(x,y, obj_bosshitbox)
+{
+	hp += -1;
+}
+
 switch(state)
 {
 	case BOSSSTATE.RUNAWAY: BossState_RunAway();
