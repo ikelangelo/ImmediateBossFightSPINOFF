@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2174ac1d-08a1-4a83-8300-80f87845330d",
+            "Value": {
+                "id": "0249c8a2-f105-46fd-935a-c65750863d5b",
+                "resourcePath": "scripts\\BossState_Death\\BossState_Death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "239cd5d9-6094-40b7-91d6-fade0fe08af9",
             "Value": {
                 "id": "48568cbb-2a80-4690-9c06-08c40ea668a4",
@@ -891,6 +899,7 @@
         "8e112979-728b-404e-91af-1fa4458dcf82",
         "5c0cdbcb-7cf4-420d-8e68-af93dd786005",
         "d77774df-6542-4c2c-9c8d-c51d5cc06ae6",
+        "2174ac1d-08a1-4a83-8300-80f87845330d",
         "078a906b-8c1a-461f-91cd-bae61c1a97b3",
         "ac55b7ea-deb2-493f-933a-395356c7481d"
     ],
