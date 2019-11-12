@@ -1,18 +1,18 @@
 {
-    "id": "4b7d2014-9860-4020-842f-4e3e4b39f310",
+    "id": "43775d33-58a9-4194-946a-4f003a6440ed",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_superlife",
+    "name": "obj_explosion",
     "eventList": [
         {
-            "id": "81313cd7-9660-4db3-abd0-a0a0e9dbbb5e",
+            "id": "18dbd812-a7fc-4e6b-8c55-7c73b0a91927",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "4b7d2014-9860-4020-842f-4e3e4b39f310"
+            "m_owner": "43775d33-58a9-4194-946a-4f003a6440ed"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5b7f3837-3298-4865-aa29-742f0e3ee2da",
+    "spriteId": "0797bacf-b16b-4b4b-868c-ca7caf010fdc",
     "visible": true
 }
