@@ -1,5 +1,3 @@
-runaway = false;
-alarm[0] = 180;
 state = BOSSSTATE.RUNAWAY;
 
 enum BOSSSTATE

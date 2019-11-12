@@ -2,6 +2,9 @@
 
 switch(state)
 {
+	case BOSSSTATE.RUNAWAY: BossState_RunAway();
+	break;
+	
 	case BOSSSTATE.PHASE1: BossState_Phase1();
 	break;
 	
