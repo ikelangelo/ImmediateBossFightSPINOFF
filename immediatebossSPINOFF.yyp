@@ -207,6 +207,14 @@
             }
         },
         {
+            "Key": "43775d33-58a9-4194-946a-4f003a6440ed",
+            "Value": {
+                "id": "f45b2e7c-ac25-4497-9a74-ed66deda2059",
+                "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "447fd0be-8fe2-451c-ade5-347261d2afce",
             "Value": {
                 "id": "a6ad1b39-329f-4fc8-9615-65cbea018b58",
@@ -236,6 +244,14 @@
                 "id": "ca8607c1-dd27-4cd2-926c-bd54bfd5d85b",
                 "resourcePath": "sprites\\spr_boss_bullet\\spr_boss_bullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4b7d2014-9860-4020-842f-4e3e4b39f310",
+            "Value": {
+                "id": "ee54fe6b-d3bb-4177-a5e0-e149a87fafce",
+                "resourcePath": "objects\\obj_superlife\\obj_superlife.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -315,6 +331,14 @@
             "Value": {
                 "id": "b93a2b7f-2b40-4679-a4c6-dfd18edd1dd2",
                 "resourcePath": "sprites\\spr_drone\\spr_drone.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5b7f3837-3298-4865-aa29-742f0e3ee2da",
+            "Value": {
+                "id": "a31c2ae4-260e-4992-8d8f-a5b5e8fa9371",
+                "resourcePath": "sprites\\spr_superlife\\spr_superlife.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -612,6 +636,22 @@
                 "id": "c31b567e-09d6-4f86-b879-81478bcb49ab",
                 "resourcePath": "sprites\\spr_CyberLynx_Jump\\spr_CyberLynx_Jump.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bbbb9619-e2eb-4f55-9009-499f520fb17c",
+            "Value": {
+                "id": "351afea4-81fc-433b-9f3b-ade5b98bacae",
+                "resourcePath": "objects\\obj_stun\\obj_stun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c07644ac-2c86-4da2-94a7-f9c8e4ae0af2",
+            "Value": {
+                "id": "b2eb591e-35fe-4fc1-a76a-652010737888",
+                "resourcePath": "objects\\obj_life\\obj_life.yy",
+                "resourceType": "GMObject"
             }
         },
         {

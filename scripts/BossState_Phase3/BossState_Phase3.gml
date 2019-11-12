@@ -1,8 +1,8 @@
 moveSp = 0;
 
-normalCooldown = 40;
+normalCooldown = 35;
 
-enemyCooldown = 180;
+enemyCooldown = 150;
 enemyCooldown += -1;
 if enemyCooldown <= 0
 {
