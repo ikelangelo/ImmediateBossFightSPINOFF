@@ -1,5 +1,6 @@
 ///stops player movement 
-
+image_speed = 1;
+walksp = 6;
 hsp = 0;
 vsp = 0;
 
