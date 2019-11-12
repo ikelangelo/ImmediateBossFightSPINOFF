@@ -383,6 +383,14 @@
             }
         },
         {
+            "Key": "9d2895df-efe5-4c32-9f2d-e502859f5a38",
+            "Value": {
+                "id": "b9139409-4bce-4c02-a7a3-712aa37d788c",
+                "resourcePath": "sprites\\spr_instructions\\spr_instructions.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9e5ddf85-c80e-4b98-a9ae-1d8460d92242",
             "Value": {
                 "id": "ec59ee37-3983-4ed6-82b6-d9d73f13aaa7",
@@ -682,7 +690,8 @@
         "d060dad5-42f8-485d-b5a7-4cd243bf92d7",
         "8e112979-728b-404e-91af-1fa4458dcf82",
         "5c0cdbcb-7cf4-420d-8e68-af93dd786005",
-        "d77774df-6542-4c2c-9c8d-c51d5cc06ae6"
+        "d77774df-6542-4c2c-9c8d-c51d5cc06ae6",
+        "078a906b-8c1a-461f-91cd-bae61c1a97b3"
     ],
     "tutorial": ""
 }
