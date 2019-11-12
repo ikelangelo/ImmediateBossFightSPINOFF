@@ -5,6 +5,8 @@
 if hp <= 0 
 instance_destroy();
 
+if move > 6 
+move = 6;
 
 
 switch(state)

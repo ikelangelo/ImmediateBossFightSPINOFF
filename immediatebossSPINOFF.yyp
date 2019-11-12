@@ -47,14 +47,6 @@
             }
         },
         {
-            "Key": "078a906b-8c1a-461f-91cd-bae61c1a97b3",
-            "Value": {
-                "id": "52f42006-6c7d-40c4-96b6-7a49c3e7ab93",
-                "resourcePath": "scripts\\PlayerState_Attack_Combo\\PlayerState_Attack_Combo.yy",
-                "resourceType": "GMScript"
-            }
-        },
-        {
             "Key": "0879e0a9-7ae8-475d-a41f-6fadc1da94e3",
             "Value": {
                 "id": "8f3ba98b-ddba-445e-b71a-3257ea34a3d5",
@@ -343,6 +335,14 @@
             }
         },
         {
+            "Key": "938b2bf5-e19f-49fc-8d3c-dce06f67f1f1",
+            "Value": {
+                "id": "df0fe7e0-fb60-44db-8184-a1019ddb9c87",
+                "resourcePath": "objects\\obj_drone_bullet\\obj_drone_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93d4e0ee-e4c5-4c9c-b5b2-459d5517f37b",
             "Value": {
                 "id": "b72ee501-5b15-4d19-938a-b040434db1c2",
@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "ca9dbb6a-5e92-4cfa-9b80-f87b17ffe3ca",
+            "Value": {
+                "id": "425ded9b-dded-4c53-90f1-b4d8c5ea6685",
+                "resourcePath": "sprites\\spr_drone_bullet\\spr_drone_bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "00abc708-466a-46c7-9551-aa21965904d3",
@@ -543,14 +551,6 @@
             }
         },
         {
-            "Key": "e740831b-bf04-4dbe-9cb8-bca64a9a4115",
-            "Value": {
-                "id": "98e0ca6c-f55d-44cf-90aa-04f59570487f",
-                "resourcePath": "objects\\obj_watcher_purple\\obj_watcher_purple.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "ee600232-9e02-47a9-8744-89f7688a35e2",
             "Value": {
                 "id": "958ffe76-3b90-4227-8b57-fa7ade98964b",
@@ -642,7 +642,6 @@
     "script_order": [
         "37718108-7de6-40c4-a33e-6cd00b808188",
         "4f356d06-e581-469c-847d-8a25d9c0cbd1",
-        "078a906b-8c1a-461f-91cd-bae61c1a97b3",
         "62898a05-463e-4679-86b3-2c74473c9030",
         "d5eb7365-8210-44a7-83d0-8236f0b09e07",
         "f11bb2f0-222f-41eb-b7c3-412fc4730e9c",
