@@ -1,1 +1,1 @@
-canShoot = true;
+stuncooldown = 0;

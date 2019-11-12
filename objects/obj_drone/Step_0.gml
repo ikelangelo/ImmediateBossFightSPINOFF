@@ -3,7 +3,7 @@ y = mouse_y;
 
 if mouse_check_button_pressed(mb_left)
 {
-	instance_create_layer(x, y, "beam_layer", obj_drone_bullet);
+	instance_create_layer(x, y, "dronekiller", obj_stun);
 }
 
 if place_meeting(x, y, obj_block) 
