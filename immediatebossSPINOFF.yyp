@@ -295,6 +295,14 @@
             }
         },
         {
+            "Key": "7545266e-2ee3-4d0d-917a-24ffa6215873",
+            "Value": {
+                "id": "8337f052-734e-4934-9d46-679152c5534f",
+                "resourcePath": "rooms\\rm_instructions\\rm_instructions.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "766953c1-d8ba-43bc-a06d-9b406b09c3fe",
             "Value": {
                 "id": "5253c1e4-de1c-4992-80a5-f569475e1f69",
@@ -372,6 +380,14 @@
                 "id": "d9bbdfeb-387d-4746-bdda-59cfd03ef86b",
                 "resourcePath": "scripts\\BossState_Phase1\\BossState_Phase1.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8efa9f32-0a90-4e44-948e-98ef9c850be8",
+            "Value": {
+                "id": "b90f3783-84ac-4f09-a34a-9f73a12c0567",
+                "resourcePath": "objects\\obj_title\\obj_title.yy",
+                "resourceType": "GMObject"
             }
         },
         {
