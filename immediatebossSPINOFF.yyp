@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "24850092-899d-49bb-acce-0442749c5e17",
+            "Value": {
+                "id": "31bb03eb-8261-4c47-8ed3-327fd164c362",
+                "resourcePath": "objects\\obj_drone_block_tutorial\\obj_drone_block_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "29acf53e-aa61-4993-8048-300f91ab41aa",
             "Value": {
                 "id": "0f6b514b-fcf9-49a8-915e-c2ce9fcc9d87",
@@ -151,6 +159,14 @@
             }
         },
         {
+            "Key": "3b53a592-dc6a-4da8-b552-2c9dee36b3c8",
+            "Value": {
+                "id": "12ba7cc9-4fc5-44ba-8999-9fbb29cebf64",
+                "resourcePath": "objects\\obj_controller_tutorial\\obj_controller_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3c4f4eef-7333-495f-afe9-9fa136a9ba05",
             "Value": {
                 "id": "df869b85-78a7-4c9e-8f92-4e7a4df6ba98",
@@ -171,6 +187,14 @@
             "Value": {
                 "id": "079a5063-82d3-47d3-817f-3cb59c38aad0",
                 "resourcePath": "objects\\obj_boss_bullet\\obj_boss_bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "42573eb2-c822-48b1-8a3c-ba047e91fc65",
+            "Value": {
+                "id": "e618f51a-5228-478e-aed8-99fb0028b700",
+                "resourcePath": "objects\\obj_GameOver\\obj_GameOver.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -367,6 +391,14 @@
             }
         },
         {
+            "Key": "77ed4644-78fb-45eb-94d4-5754d8c86b65",
+            "Value": {
+                "id": "b53e95eb-3082-4f61-879b-4b809fbd7147",
+                "resourcePath": "objects\\obj_nextroom\\obj_nextroom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7a7fdc2b-6676-4cbd-92dd-6e6f016a6180",
             "Value": {
                 "id": "52ed0e57-ac43-4d55-95ee-53a38c646b38",
@@ -503,6 +535,14 @@
             }
         },
         {
+            "Key": "9f938c6e-e04e-439a-8667-d5f1df99be7b",
+            "Value": {
+                "id": "acf00028-46ad-4a86-b84b-b3b984ca4485",
+                "resourcePath": "objects\\obj_drone_tutorial\\obj_drone_tutorial.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "88c3778b-66aa-4651-a102-cec9ab973c0e",
@@ -524,6 +564,14 @@
                 "id": "3c9a5750-1457-4eab-9b83-4fb131026b17",
                 "resourcePath": "scripts\\BossState_RunAway\\BossState_RunAway.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "acd6a954-c1e8-4d00-a5e8-fcd59b23dd83",
+            "Value": {
+                "id": "dec58566-bb76-4d95-ad9a-e7c590ed7bd7",
+                "resourcePath": "rooms\\rm_GameOver\\rm_GameOver.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
