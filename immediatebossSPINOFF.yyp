@@ -423,6 +423,22 @@
             }
         },
         {
+            "Key": "9a24d384-5d2c-49e7-b175-683d3be90fea",
+            "Value": {
+                "id": "7c080c7e-6d03-469f-8bf3-d843475fdd12",
+                "resourcePath": "objects\\obj_bosshitbox\\obj_bosshitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b9cb575-daad-4a5a-aa5a-c3129c18395e",
+            "Value": {
+                "id": "fbb41c82-bb94-42f0-ab28-1a75bbcd9aa1",
+                "resourcePath": "sprites\\spr_bosshitbox\\spr_bosshitbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9d2895df-efe5-4c32-9f2d-e502859f5a38",
             "Value": {
                 "id": "b9139409-4bce-4c02-a7a3-712aa37d788c",
