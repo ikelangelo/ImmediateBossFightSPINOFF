@@ -1,5 +1,6 @@
 state = BOSSSTATE.RUNAWAY;
-
+normalCooldown = 60;
+bulletCooldown = normalCooldown;
 enum BOSSSTATE
 {
 	RUNAWAY,

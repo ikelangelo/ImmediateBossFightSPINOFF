@@ -1,4 +1,10 @@
-
+bulletCooldown += -1;
+if bulletCooldown < 0
+{
+	instance_create_layer(x, y, "dronekiller", obj_boss_bullet)
+	bulletCooldown = normalCooldown;
+	
+}
 
 switch(state)
 {
