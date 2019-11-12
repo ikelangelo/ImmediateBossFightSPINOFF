@@ -12,5 +12,12 @@ if enemyCooldown <= 0
 
 
 if hp <= 0
-
-state = BOSSSTATE.RUNAWAY;
+{
+	repeat(30)
+	{
+		instance_create_layer(x+irandom_range(-72, 72), y+irandom_range(-72, 72), "explosions", obj_explosion)
+	}
+	instance_create_layer(x, y, "explosions", obj_superlife);
+	state = BOSSSTATE.RUNAWAY;
+	
+}

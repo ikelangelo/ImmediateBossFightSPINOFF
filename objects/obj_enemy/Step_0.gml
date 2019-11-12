@@ -6,9 +6,9 @@ if hp <= 0
 {
 	repeat(20)
 	{
-		instance_create_layer(x+irandom_range(-48, 48), y+irandom_range(-48, 48), "Instances", obj_explosion)
+		instance_create_layer(x+irandom_range(-48, 48), y+irandom_range(-48, 48), "explosions", obj_explosion)
 	}
-	instance_create_layer(x, y, "Instances", obj_life);
+	instance_create_layer(x, y, "explosions", obj_life);
 	instance_destroy();
 }
 if move > 6 

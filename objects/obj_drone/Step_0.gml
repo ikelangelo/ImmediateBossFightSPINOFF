@@ -1,7 +1,7 @@
 x = mouse_x;
 y = mouse_y; 
 
-if mouse_check_button_pressed(mb_left)
+if mouse_check_button_pressed(mb_left) && (stuncooldown <= 0)
 {
 	instance_create_layer(x, y, "dronekiller", obj_stun);
 }

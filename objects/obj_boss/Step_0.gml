@@ -26,6 +26,7 @@ switch(state)
 	case BOSSSTATE.PHASE3: BossState_Phase3();
 	break;
 
-
+	case BOSSSTATE.DEATH: BossState_Death();
+	break;
 
 }
