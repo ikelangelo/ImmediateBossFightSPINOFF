@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "095082d3-5616-4085-a4fb-ce62384f72ab",
+            "Value": {
+                "id": "95a70a3d-a003-4d76-b11d-946727c9cb5a",
+                "resourcePath": "rooms\\rm_Win\\rm_Win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0d848f5d-3e87-4b13-9315-3e1ae1d4ef67",
             "Value": {
                 "id": "c1321e71-4377-44be-99a6-9266c602004b",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "172bd2a2-3c31-4a04-acd9-b1c024329f69",
+            "Value": {
+                "id": "8711df43-7a97-4b34-8b4c-9ee481f19eda",
+                "resourcePath": "objects\\obj_Taunt\\obj_Taunt.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17b11ee7-6da4-4ce4-bfb6-92affe3b7e79",
             "Value": {
                 "id": "953dcf94-cf09-4e8b-baa9-ee1172ab0a2c",
@@ -116,6 +132,14 @@
                 "id": "c79c1c03-a664-4a7d-9fec-15e6804c0a9f",
                 "resourcePath": "sprites\\spr_CyberLynx_SlashHitBox\\spr_CyberLynx_SlashHitBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "205abf3a-0512-4eb4-8199-eb25670f22bd",
+            "Value": {
+                "id": "f2d3414b-f7d3-4e06-aa72-4ac0fbe2f1f6",
+                "resourcePath": "objects\\obj_boss_portal\\obj_boss_portal.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -183,6 +207,14 @@
             }
         },
         {
+            "Key": "3e68bb4a-6024-4742-b5a1-2f4a47e1c13f",
+            "Value": {
+                "id": "645fcdec-29fb-422a-b169-772eb6229c68",
+                "resourcePath": "objects\\obj_ending\\obj_ending.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3eddebd1-1553-4973-b000-3b9b3307d688",
             "Value": {
                 "id": "09d8a774-4dc4-46f1-8eaf-6be57fd1ff1c",
@@ -220,6 +252,14 @@
                 "id": "f45b2e7c-ac25-4497-9a74-ed66deda2059",
                 "resourcePath": "objects\\obj_explosion\\obj_explosion.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "446975ea-03ef-4922-81f4-2cc8d1f1f19d",
+            "Value": {
+                "id": "99cc7bc8-2205-41a3-a6c7-d26e92994a7d",
+                "resourcePath": "sprites\\spr_drone_here\\spr_drone_here.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -375,6 +415,14 @@
             }
         },
         {
+            "Key": "65f599c7-940a-4c94-bf3b-2f5fd5266aab",
+            "Value": {
+                "id": "a7cf9c6b-037d-40a4-a5a1-7337a2f40569",
+                "resourcePath": "sprites\\spr_win\\spr_win.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "699d4642-dec1-44d9-9ad9-9a363378b749",
             "Value": {
                 "id": "bd26c2e4-cdb0-4b14-8e73-4a67ffe74a23",
@@ -479,10 +527,26 @@
             }
         },
         {
+            "Key": "8131e138-b926-4786-98e5-99adf0a1ecf5",
+            "Value": {
+                "id": "ae7c3b3f-5f6a-4ad4-818e-eca1dfe11049",
+                "resourcePath": "sprites\\spr_Squire_Taunt\\spr_Squire_Taunt.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85199266-b18a-4418-a0fc-57f6245a7a64",
             "Value": {
                 "id": "0a613546-908d-4641-8940-919fed58c81f",
                 "resourcePath": "sprites\\spr_life\\spr_life.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "85297231-fe0a-4112-8507-128df47fec17",
+            "Value": {
+                "id": "94b418ed-82e2-42b5-8c00-249370296bee",
+                "resourcePath": "sprites\\spr_nextroom\\spr_nextroom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -676,6 +740,14 @@
                 "id": "84839233-1da7-48ec-b68f-ffed45ddfcda",
                 "resourcePath": "sprites\\spr_enemy_attack\\spr_enemy_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c76767b8-0538-43ac-a0f5-e0527b2b3a1e",
+            "Value": {
+                "id": "d526e8fb-7d02-4b5b-b593-17890f3f2a7f",
+                "resourcePath": "objects\\obj_drone_here\\obj_drone_here.yy",
+                "resourceType": "GMObject"
             }
         },
         {
