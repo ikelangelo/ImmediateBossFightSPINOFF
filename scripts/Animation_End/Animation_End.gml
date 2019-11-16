@@ -24,4 +24,5 @@ return _image + _spd >= sprite_get_number(_sprite);
 
 
 //////I decided against using this piece of code because it was too robust for what I wanted to do
-//// I found that using an if statement for imageindex works just as fine
+//// I found that using an if statement for imageindex works just as fine but feel 
+/// free to copy and paste this as it is SUPER USEFUL!!!

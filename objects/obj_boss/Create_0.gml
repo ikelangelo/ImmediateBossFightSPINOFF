@@ -4,6 +4,7 @@ bulletCooldown = normalCooldown;
 enemyCooldown = 0;
 hp = 80;
 moveSp = 16;
+enemyCooldown = 300;
 
 
 
